@@ -1,7 +1,7 @@
 {
   "name": "vue-platform",
   "version": "1.0.0",
-  "description": "",
+  "description": "vue-platform是一个Vue插件，区分PC端和H5移动端，支持针对不同端展示不同的视图层",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
