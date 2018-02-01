@@ -1,0 +1,19 @@
+{
+  "name": "vue-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuJiaoHJ/vue-platform.git"
+  },
+  "author": "hujiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuJiaoHJ/vue-platform/issues"
+  },
+  "homepage": "https://github.com/HuJiaoHJ/vue-platform#readme"
+}
