@@ -4,7 +4,7 @@
 
 [![NPM](https://nodei.co/npm/vue-platform.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vue-platform/)
 
-vue-platform是一个Vue插件，区分PC端和H5移动端，支持针对不同端展示不同的视图层
+vue-platform是一个Vue插件，区分PC端和H5移动端，支持针对不同端展示不同的视图层，实现业务逻辑的多端复用
 
 ### 使用背景
 
@@ -25,7 +25,7 @@ vue-platform是一个Vue插件，区分PC端和H5移动端，支持针对不同�
 4、最后将结果存储到 `localStorage` 的 `_platform` 字段，方便后续访问页面直接使用
 
 <p align="left">
-    <img width="800px" src="./screenshot/vue-platform.png">
+    <img width="600px" src="./screenshot/vue-platform.png">
 </p>
 
 ### 使用
@@ -74,4 +74,28 @@ Vue.use(vuePlatform);
         },
     };
 </script>
+```
+
+* `this.$platform === '1'` => pc
+
+* `this.$platform === '2'` => mobile
+
+### 实例
+
+[DEMO](https://hujiaohj.github.io/vue-platform/example/dist/index.html)
+
+#### 本地运行
+
+在 `example` 目录下，执行以下脚本：
+
+``` bash
+$ npm run dev # 启动本地服务
+$ npm run build # 打包
+```
+
+实例使用的 [parcel](https://en.parceljs.org/) 进行项目构建，所以也可以直接执行以下脚本：
+
+``` bash
+$ parcel index.html # 启动本地服务
+$ parcel build index.html --public-url ./ # 打包
 ```
