@@ -23,7 +23,7 @@ export default {
                 if (platform !== null) {
                     return platform;
                 }
-                const query = this.$route.query;
+                const query = this.$route ? this.$route.query : {};
                 if (query._platform) {
                     platform = map[query._platform];
                 } else if (storage.getItem('_platform')) {
