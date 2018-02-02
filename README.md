@@ -82,7 +82,11 @@ Vue.use(vuePlatform);
 
 ### 实例
 
-[DEMO](https://hujiaohj.github.io/vue-platform/example/dist/index.html)
+[DEMO](https://hujiaohj.github.io/vue-platform/example/dist/index.html)，打开页面之后，可以：
+
+* 添加 `?_platform=2`，刷新页面，查看效果
+* 删除 `?_platform=2`，修改`localStorage`中`platform`字段值分别为 1 和 2 ，刷新页面，查看效果
+* 清空 `localStorage`，将开发者工具调整为H5模式，刷新页面，查看效果
 
 #### 本地运行
 
