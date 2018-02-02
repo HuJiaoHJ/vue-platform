@@ -14,6 +14,16 @@ vue-platform是一个Vue插件，区分PC端和H5移动端，支持针对不同�
 
 ### 实现
 
+判断优先级：
+
+1、判断 `query` 中的 `_platform`
+
+2、读取 `localStorage` 中的 `_platform`
+
+3、解析 `userAgent`
+
+4、最后将结果存储到 `localStorage` 的 `_platform` 字段，方便后续访问页面直接使用
+
 <p align="left">
     <img width="800px" src="./screenshot/vue-platform.png">
 </p>
